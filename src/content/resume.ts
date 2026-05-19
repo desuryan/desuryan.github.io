@@ -68,11 +68,11 @@ export const resume: Resume = {
     {
       title: 'Sr. Lead Software Development Engineer',
       company: 'Larsen and Toubro',
-      location: 'India',
+      location: 'Hyderabad, India',
       start: 'Jan 2022',
       end: 'Present',
       highlights: [
-        'Lead an 11-member engineering team delivering scalable backend platforms, distributed systems, real-time data processing services, and cloud-integrated enterprise software.',
+        'Lead an medium sized engineering team delivering scalable backend platforms, distributed systems, real-time data processing services, and cloud-integrated enterprise software.',
         'Architect and implement high-performance software using microservices, event-driven design, REST APIs, messaging systems, relational and non-relational databases, and cloud-native deployment patterns.',
         'Make design decisions focused on performance, scalability, reliability, maintainability, and future expansion across complex distributed software platforms.',
         'Improved system latency by 30% through performance tuning, asynchronous processing, architecture optimization, and distributed component improvements across 10,000+ connected assets.',
@@ -82,7 +82,7 @@ export const resume: Resume = {
     {
       title: 'Lead Software Development Engineer',
       company: 'Solulever BV',
-      location: 'Netherlands',
+      location: 'Noida, India',
       start: 'Mar 2021',
       end: 'Jan 2022',
       highlights: [
@@ -95,7 +95,7 @@ export const resume: Resume = {
     {
       title: 'Senior Software Development Engineer',
       company: 'Siemens Technology and Services Ltd.',
-      location: 'India',
+      location: 'Bengaluru, India',
       start: 'Mar 2019',
       end: 'Mar 2021',
       highlights: [
@@ -108,7 +108,7 @@ export const resume: Resume = {
     {
       title: 'Application Engineer',
       company: 'Alltronix India Ltd.',
-      location: 'India',
+      location: 'Bengaluru, India',
       start: 'Dec 2015',
       end: 'Dec 2018',
       highlights: [
@@ -205,37 +205,37 @@ export const resume: Resume = {
       name: 'GRID SCADA',
       description:
         'Developed IEC 61850 MMS client module for the data acquisition subsystem. Integrated 100,000+ data points with sub-second reporting performance and improved reliability of grid communication workflows.',
-      tech: ['IEC 61850', 'Java', 'Real-Time Systems'],
+      tech: ['IEC 61850', 'Java', 'Real-Time Systems', 'Distributed Systems'],
     },
     {
       name: 'Wide Area Measurements System (WAMS)',
       description:
         'Designed mission-critical distributed applications for real-time monitoring and wide-area data processing. Achieved under 2 ms latency for PDC-WAMS processing with 50 PMUs.',
-      tech: ['C37.118', 'PMU', 'Low-Latency Architecture'],
+      tech: ['C37.118', 'PMU', 'Low-Latency', 'Distributed Systems'],
     },
     {
       name: 'Brabo — IoT Edge Platform',
       description:
         'Modular Industrial IoT architecture for real-time data integration, distributed processing, batching, and edge-to-cloud orchestration for manufacturing and industrial monitoring.',
-      tech: ['Java', 'Go', 'Python', 'MQTT', 'Microservices'],
+      tech: ['Java', 'Go', 'Python', 'Kubernetes','Kafka','MQTT', 'Microservices', 'Event-Driven Architecture'],
     },
     {
       name: 'NXPower',
       description:
         'Smart energy management platform for distributed assets—backend services, real-time data processing, asset visibility, and infrastructure-level optimization.',
-      tech: ['REST APIs', 'Data Acquisition', 'Analytics'],
+      tech: ['REST APIs', 'gRPC','Data Acquisition','Machine Learning','IoT', 'Analytics'],
     },
     {
       name: 'NeuralGRID',
       description:
         'Centralized software platform for monitoring and control across large-scale renewable energy plants with high-volume data acquisition and control-center integration.',
-      tech: ['Distributed Systems', 'Integration Patterns'],
+      tech: ['Distributed Systems', 'Modbus', 'IEC-104','Always Avaiable','Integration Patterns'],
     },
     {
       name: 'Smart City EMS, Dubai Expo City',
       description:
         'Integrated IoT data streams for energy and infrastructure monitoring with backend components for data acquisition, analytics, and operational observability.',
-      tech: ['IoT', 'Grafana', 'Real-Time Monitoring'],
+      tech: ['IoT', 'Rest API', 'Data Acquisition','Application Development','Real-Time Monitoring'],
     },
   ],
   lastUpdated: 'May 2026',
