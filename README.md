@@ -1,6 +1,6 @@
-# panda.github.io
+# desuryan.github.io
 
-Personal resume site for [https://panda.github.io](https://panda.github.io), built with Vite, React, and TypeScript.
+Personal resume site for [https://desuryan.github.io](https://desuryan.github.io), built with Vite, React, and TypeScript.
 
 ## Customize
 
@@ -28,14 +28,14 @@ Output is in `dist/`.
 
 ## Deploy to GitHub Pages
 
-This project is configured for a **user site** repository named `panda.github.io` (served at the domain root).
+This project is configured for a **user site** repository named `desuryan.github.io` (served at the domain root).
 
-1. Create a GitHub repository named **`panda.github.io`** under the `panda` account.
+1. Create a GitHub repository named **`desuryan.github.io`** under the `desuryan` account.
 2. Push this project to that repository.
 3. In the repo **Settings → Pages**, set source to **GitHub Actions** (or deploy `dist/` from the `gh-pages` branch).
-4. After deploy, the site will be live at **https://panda.github.io**.
+4. After deploy, the site will be live at **https://desuryan.github.io**.
 
-`vite.config.ts` uses `base: '/'`, which is correct for a user Pages site. For a project site at `https://panda.github.io/other-repo/`, you would set `base: '/other-repo/'` instead.
+`vite.config.ts` uses `base: '/'`, which is correct for a user Pages site. For a project site at `https://desuryan.github.io/other-repo/`, you would set `base: '/other-repo/'` instead.
 
 ### Other hosts
 
