@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import { resume } from './content/resume'
 import { Hero } from './components/Hero'
 import { SiteNav } from './components/SiteNav'
@@ -8,10 +9,33 @@ import { SkillList } from './components/SkillList'
 import { ProjectCard } from './components/ProjectCard'
 import { Footer } from './components/Footer'
 
+type Theme = 'dark' | 'light'
+
+const getInitialTheme = (): Theme => {
+  if (typeof window === 'undefined') return 'dark'
+
+  const savedTheme = window.localStorage.getItem('resume-theme')
+  if (savedTheme === 'light' || savedTheme === 'dark') return savedTheme
+
+  return 'dark'
+}
+
 function App() {
+  const [theme, setTheme] = useState<Theme>(getInitialTheme)
+
+  useEffect(() => {
+    document.documentElement.dataset.theme = theme
+    document.documentElement.style.colorScheme = theme
+    window.localStorage.setItem('resume-theme', theme)
+  }, [theme])
+
+  const toggleTheme = () => {
+    setTheme((currentTheme) => (currentTheme === 'dark' ? 'light' : 'dark'))
+  }
+
   return (
     <div className="resume-page">
-      <SiteNav />
+      <SiteNav theme={theme} onToggleTheme={toggleTheme} />
       <Hero
         profile={{
           name: resume.name,

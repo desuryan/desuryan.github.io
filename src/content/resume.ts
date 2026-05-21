@@ -72,7 +72,7 @@ export const resume: Resume = {
       start: 'Jan 2022',
       end: 'Present',
       highlights: [
-        'Lead an medium sized engineering team delivering scalable backend platforms, distributed systems, real-time data processing services, and cloud-integrated enterprise software.',
+        'Lead a medium sized engineering team delivering scalable backend platforms, distributed systems, real-time data processing services, and cloud-integrated enterprise software.',
         'Architect and implement high-performance software using microservices, event-driven design, REST APIs, messaging systems, relational and non-relational databases, and cloud-native deployment patterns.',
         'Make design decisions focused on performance, scalability, reliability, maintainability, and future expansion across complex distributed software platforms.',
         'Improved system latency by 30% through performance tuning, asynchronous processing, architecture optimization, and distributed component improvements across 10,000+ connected assets.',
